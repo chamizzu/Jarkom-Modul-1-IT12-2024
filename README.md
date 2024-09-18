@@ -26,11 +26,120 @@
    ![Screenshot 2024-09-18 203848](https://github.com/user-attachments/assets/6bb29f1e-9467-4bf9-accc-0bf2df0e88e9)
 
    
+## Advance Sanity Check
+
+1. ![Screenshot 2024-09-19 002809](https://github.com/user-attachments/assets/d038044b-92e3-4c80-b623-d704a570cd6c)
+
+2. ![Screenshot 2024-09-19 003055](https://github.com/user-attachments/assets/87776c1d-452b-4e09-8941-7c1b5866c474)
+
+3. ![Screenshot 2024-09-19 003140](https://github.com/user-attachments/assets/2d116131-8a4c-438f-a54e-2f94cf23fb7e)
+
+4. ![Screenshot 2024-09-19 003147](https://github.com/user-attachments/assets/fd4b66be-80a0-46d4-987c-ee73fca8734d)
 
 
+## Pegawai Negeri Sebelah
 
+1. Pertama, masukkan ncat yang diberikan di soal, lalu akan muncul password nNnM%coQuF
+   ![Screenshot 2024-09-18 233950](https://github.com/user-attachments/assets/46748b38-8555-4008-b217-78542ddfb7fe)
    
-![Screenshot 2024-09-18 203831](https://github.com/user-attachments/assets/03854ea6-a18d-4cad-908c-33bf43f68e8d)
+2. Setelah itu, search seperti ini
+   ![Screenshot 2024-09-18 234046](https://github.com/user-attachments/assets/27b0b312-631d-4097-826e-11de24e991b8)
+   
+3. dan akan muncul pemilik password nNnM%coQuF
+   ![Screenshot 2024-09-18 203831](https://github.com/user-attachments/assets/cfce1876-3bcc-43a2-aa7d-94e503247503)
+   
+4. Disini terdapat beberapa pertanyaan 
+   ![Screenshot 2024-09-18 203255](https://github.com/user-attachments/assets/d2bbc310-6a67-4876-8070-8de6080854bf)
+   
+   ![Screenshot 2024-09-18 203848](https://github.com/user-attachments/assets/6bb29f1e-9467-4bf9-accc-0bf2df0e88e9)
+
+   ![Screenshot 2024-09-18 203929](https://github.com/user-attachments/assets/9289e086-595b-4902-9fed-8dafcd978f34)
+
+   ![Screenshot 2024-09-18 203953](https://github.com/user-attachments/assets/58b19cec-b16d-4970-bb95-a8661593eeee)
+
+
+## FTP LOGIN
+
+1. ![Screenshot 2024-09-18 235718](https://github.com/user-attachments/assets/7ad3c3cf-7956-42d6-9286-3682bcf9828b)
+
+2. ![Screenshot 2024-09-18 235738](https://github.com/user-attachments/assets/f3dc561b-2497-4ced-b797-383c7f02d318)
+
+3. ![Screenshot 2024-09-18 235755](https://github.com/user-attachments/assets/7904942b-a3b5-41d1-9fe1-b0fc2c9a9005)
+
+
+## SUPRISE
+
+1. ![Screenshot 2024-09-18 205056](https://github.com/user-attachments/assets/c8c1cfaa-de21-4881-a893-caa3fe3535cd)
+
+2. ![Screenshot 2024-09-18 205128](https://github.com/user-attachments/assets/c4502453-0f97-4ac9-be57-0184c55cb3f6)
+
+3. ![Screenshot 2024-09-18 205135](https://github.com/user-attachments/assets/04beb9c6-b872-4045-b696-25045ef70fdf)
+
+4. ![Screenshot 2024-09-18 205207](https://github.com/user-attachments/assets/1f27769a-56a6-479d-b31f-a2964bde8b62)
+
+
+## PACKAGE BARRAGE
+
+1. ![Screenshot 2024-09-18 215137](https://github.com/user-attachments/assets/f27995ba-5a58-4e15-87ec-6ac3752bb03d)
+
+2. ![Screenshot 2024-09-18 215231](https://github.com/user-attachments/assets/2bc3ba8c-2bd4-480f-a255-f329a044d38d)
+
+3. ![Screenshot 2024-09-18 215715](https://github.com/user-attachments/assets/101d3319-cfc1-42b6-a1c6-1a8fcd887979)
+
+4. ![Screenshot 2024-09-18 215727](https://github.com/user-attachments/assets/1c7721c4-4b27-470c-b181-69bacb1dfd22)
+
+## CORPORATE BREACH
+
+1. ![Screenshot 2024-09-18 221129](https://github.com/user-attachments/assets/5badb8e3-0a8d-4d52-84af-6f149071832a)
+
+2. ![Screenshot 2024-09-18 221241](https://github.com/user-attachments/assets/c4aa980e-9353-49c6-86d8-7facc6e3450d)
+
+3. ![Screenshot 2024-09-18 221315](https://github.com/user-attachments/assets/5f0db09d-f91f-43d1-98a7-a0766c49801e)
+
+4. ![Screenshot 2024-09-18 221329](https://github.com/user-attachments/assets/21a0e56b-79ee-43c7-9f88-91cc9de2527b)
+
+## Gajah Terbang (Server Recon)
+
+1. ![Screenshot 2024-09-18 225703](https://github.com/user-attachments/assets/e770b427-4847-45af-88dc-1e5065cae87a)
+
+2. ![Screenshot 2024-09-18 225845](https://github.com/user-attachments/assets/90f9dd4e-3506-45ab-aca5-3c32e034700d)
+
+3. ![Screenshot 2024-09-18 225928](https://github.com/user-attachments/assets/468182dc-10aa-42af-9bd5-4b12b5abe29d)
+
+4. ![Screenshot 2024-09-18 225957](https://github.com/user-attachments/assets/bffc5ba0-7820-4134-a7dd-86b1b45021df)
+
+5. ![Screenshot 2024-09-18 230042](https://github.com/user-attachments/assets/ef3e9f4b-3332-4f2f-a799-6e3084c46ea6)
+
+6. ![Screenshot 2024-09-18 230112](https://github.com/user-attachments/assets/14b9575a-9123-44f7-9542-53015a48ed20)
+
+7. ![Screenshot 2024-09-18 230134](https://github.com/user-attachments/assets/95c0d3f0-3e11-474e-af5c-2ac531643a2c)
+
+8. ![Screenshot 2024-09-18 230406](https://github.com/user-attachments/assets/37ccd547-5323-40e3-80ae-2f83dc8ae6ad)
+
+9. ![Screenshot 2024-09-18 230418](https://github.com/user-attachments/assets/984ab0cf-5f4d-437e-bec1-058accfa30e2)
+
+
+## Gajah Terbang (Attacker Recon)
+
+1. ![Screenshot 2024-09-18 231132](https://github.com/user-attachments/assets/dc586d31-c9f5-42d1-85b1-252e4b060ffd)
+
+2. ![Screenshot 2024-09-18 231232](https://github.com/user-attachments/assets/7e02dc26-63bd-4088-9289-203b1db8ef93)
+
+3. ![Screenshot 2024-09-18 231322](https://github.com/user-attachments/assets/e6757c6c-5f11-4290-9ef7-62b71a9ad805)
+
+4. ![Screenshot 2024-09-18 231648](https://github.com/user-attachments/assets/74f20218-c140-4f67-af8f-7c7c8cf0cb19)
+
+5. ![Screenshot 2024-09-18 231930](https://github.com/user-attachments/assets/a2792699-95f7-47ba-9d5a-dabaed704131)
+
+6. ![Screenshot 2024-09-18 232004](https://github.com/user-attachments/assets/c4d80f3b-10b6-44c9-935c-f16b45d13d2f)
+
+7. ![Screenshot 2024-09-18 232004](https://github.com/user-attachments/assets/15813673-7db0-44cd-a2c0-169d2914c5f4)
+
+8. ![Screenshot 2024-09-18 232109](https://github.com/user-attachments/assets/1ee85cdf-9c6f-4763-8863-3281feca6b7f)
+
+9. ![Screenshot 2024-09-18 232115](https://github.com/user-attachments/assets/c0515084-8b50-44cf-b80a-14b92257caab)
+
+    
 
 ## 2. Illegal Breakthrough
 
