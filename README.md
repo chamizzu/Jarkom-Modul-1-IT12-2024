@@ -28,6 +28,19 @@
    
 ## Advance Sanity Check
 
+## Langkah - langkah :
+1. Masukkan IP yang tersedia di pertanyaan Advance Sanity Check yaitu : 10.15.42.60 44000
+2. Untuk mengetahui username, buka paket nomor 85 di Wireshark dan lihat di bagian bawah jendela untuk menemukan data yang berisi username yaitu : JaneD03
+3. Untuk mengetahui nama file yang dikirim, buka paket nomor 85 di Wireshark dan periksa bagian File Name dalam detail paket tersebut. Nama file yang dikirim akan tercantum, yaitu : Clue3.txt
+4. Untuk mendapatkan pesan rahasia, ikuti petunjuk yang tertera pada salah satu paket yang ada, yang menyebutkan peraturan soal shift. Anda dapat menemukan detail tersebut pada file soal shift di https://jarkomprak2024.carrd.co/, yaitu : cGVud29yZA==
+5. Dari kode yang diperoleh, decode kata yang ditandai dengan warna merah menjadi string. Setelah proses decoding, hasilnya adalah kata "penword".
+6. Flag :
+   ```
+   Benar! Ini flag-mu: JarkomIT{8uK4n_S4n1ty_b1a5A_k5fLrjgf2KeSio8hPTpRgMmbjSu5ymVutby5BDVDDGYUFpSEsakP0IKK}
+   ```
+
+Berikut bukti dokumentasinya :
+
 1. ![Screenshot 2024-09-19 002809](https://github.com/user-attachments/assets/d038044b-92e3-4c80-b623-d704a570cd6c)
 
 2. ![Screenshot 2024-09-19 003055](https://github.com/user-attachments/assets/87776c1d-452b-4e09-8941-7c1b5866c474)
@@ -39,17 +52,25 @@
 
 ## Pegawai Negeri Sebelah
 
-1. Pertama, masukkan ncat yang diberikan di soal, lalu akan muncul password nNnM%coQuF
-   ![Screenshot 2024-09-18 233950](https://github.com/user-attachments/assets/46748b38-8555-4008-b217-78542ddfb7fe)
+## Langkag - langkah : 
+1.  Masukkan IP yang tersedia di pertanyaan Pegawai Negeri Sebelah, yaitu : 10.15.42.60 53000
+2.  Untuk menemukan pemilik password "nNnM%coQuF", gunakan filter tcp.stream eq di Wireshark. Terapkan filter tersebut dan telusuri paket-paket yang ada hingga menemukan informasi terkait password. Hasilnya menunjukkan bahwa pemilik password tersebut adalah Vero Tampubolon.
+3.  Kemudian, diminta untuk menentukan jabatan Taufan Kuswandari, yang tercatat sebagai Analis Kebijakan.
+4.  Selanjutnya, untuk nama yang terdaftar di posisi teratas, yaitu Cici Mustofa, serta password untuk pengguna terakhir, Harjasa Suryatmi, yang memiliki password "RyxaJPv^yF".
+5.  6. Flag :
+   ```
+   Benar! Ini flag-mu: JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_RE5fB9msos1r1n1tSfPEjZ0NBL3FW15zhfirMVzotJtTjtmg1WeEM4h}
+   ```
+
+Berikut bukti dokumentasinya : 
+
+1. ![Screenshot 2024-09-18 233950](https://github.com/user-attachments/assets/46748b38-8555-4008-b217-78542ddfb7fe)
    
-2. Setelah itu, search seperti ini
-   ![Screenshot 2024-09-18 234046](https://github.com/user-attachments/assets/27b0b312-631d-4097-826e-11de24e991b8)
+2. ![Screenshot 2024-09-18 234046](https://github.com/user-attachments/assets/27b0b312-631d-4097-826e-11de24e991b8)
    
-3. dan akan muncul pemilik password nNnM%coQuF
-   ![Screenshot 2024-09-18 203831](https://github.com/user-attachments/assets/cfce1876-3bcc-43a2-aa7d-94e503247503)
+3. ![Screenshot 2024-09-18 203831](https://github.com/user-attachments/assets/cfce1876-3bcc-43a2-aa7d-94e503247503)
    
-4. Disini terdapat beberapa pertanyaan 
-   ![Screenshot 2024-09-18 203255](https://github.com/user-attachments/assets/d2bbc310-6a67-4876-8070-8de6080854bf)
+4. ![Screenshot 2024-09-18 203255](https://github.com/user-attachments/assets/d2bbc310-6a67-4876-8070-8de6080854bf)
    
    ![Screenshot 2024-09-18 203848](https://github.com/user-attachments/assets/6bb29f1e-9467-4bf9-accc-0bf2df0e88e9)
 
@@ -60,6 +81,17 @@
 
 ## FTP LOGIN
 
+## Langkag - langkah : 
+1.  Masukkan IP yang tersedia di pertanyaan Pegawai Negeri Sebelah, yaitu :  10.15.42.60 49000
+2.  Selanjutnya, ketika membuka file di Wireshark, mayoritas paket yang berkaitan dengan login teridentifikasi pada protokol FTP. Untuk mempermudah pencarian, filter dengan kata kunci "ftp" dan pilih paket yang menunjukkan informasi login berhasil.
+3.  Pada terminal, kami diminta untuk memasukkan username yang berhasil digunakan untuk login FTP. Setelah menganalisis data, kami menemukan bahwa username yang berhasil login adalah sn34ky. Selanjutnya, kami juga diminta untuk memberikan password untuk username tersebut, yang adalah sup3rsn1ff3r.
+4.  6. Flag :
+   ```
+   Benar! Ini flag-mu: JarkomIT{n0t_s0_s3cur3_ftp_V20h8MV4kLHzIDl4vM8bxqWbvL0XwLEJuZEjtqRrHk2Wf44U4ObVG1N}
+   ```
+
+Berikut bukti dokumentasinya :
+
 1. ![Screenshot 2024-09-18 235718](https://github.com/user-attachments/assets/7ad3c3cf-7956-42d6-9286-3682bcf9828b)
 
 2. ![Screenshot 2024-09-18 235738](https://github.com/user-attachments/assets/f3dc561b-2497-4ced-b797-383c7f02d318)
@@ -68,6 +100,20 @@
 
 
 ## SUPRISE
+
+## Langkag - langkah : 
+1.  Masukkan IP yang tersedia di pertanyaan Pegawai Negeri Sebelah, yaitu : 10.15.42.60 48500
+2.  Di terminal, Anda diminta untuk memasukkan layanan yang digunakan pada FTP. Untuk ini, cari paket yang relevan dengan format yang sama seperti pada soal FTP Login sebelumnya.
+3.  Setelah menemukan baris yang sesuai, masukkan informasi tersebut dan berhasil.
+4.  Kemudian, diminta untuk mengirim nama file yang dikirim oleh penyerang. Temukan nama file di paket yang sama, masukkan kata dengan format yang benar, dan verifikasi keberhasilannya.
+5.  Selanjutnya, cari pesan rahasia dari penyerang. Telusuri paket dari atas ke bawah hingga menemukan paket dengan informasi yang sama seperti nama file sebelumnya.
+6.  Paket tersebut berisi kode C++ yang dikompilasi untuk menemukan hasil tertentu. Masukkan hasil ini ke terminal untuk mendapatkan jawaban yang benar.
+7.  6. Flag :
+   ```
+   Benar! Ini flag-mu: JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_nfiQRSf2p6F4uj4coKFqxHJX0G0UM0MTQFSJynM3gooJAbMxhjhXTCHU}
+   ```
+
+Berikut bukti dokumentasinya : 
 
 1. ![Screenshot 2024-09-18 205056](https://github.com/user-attachments/assets/c8c1cfaa-de21-4881-a893-caa3fe3535cd)
 
