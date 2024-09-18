@@ -36,7 +36,7 @@ Berikut bukti dokumentasinya :
 
 ## Pegawai Negeri Sebelah
 
-## Langkag - langkah : 
+## Langkah - langkah : 
 1.  Masukkan IP yang tersedia di pertanyaan Pegawai Negeri Sebelah, yaitu : 10.15.42.60 53000
 2.  Untuk menemukan pemilik password "nNnM%coQuF", gunakan filter tcp.stream eq di Wireshark. Terapkan filter tersebut dan telusuri paket-paket yang ada hingga menemukan informasi terkait password. Hasilnya menunjukkan bahwa pemilik password tersebut adalah Vero Tampubolon.
 3.  Kemudian, diminta untuk menentukan jabatan Taufan Kuswandari, yang tercatat sebagai Analis Kebijakan.
@@ -65,8 +65,8 @@ Berikut bukti dokumentasinya :
 
 ## FTP LOGIN
 
-## Langkag - langkah : 
-1.  Masukkan IP yang tersedia di pertanyaan Pegawai Negeri Sebelah, yaitu :  10.15.42.60 49000
+## Langkah - langkah : 
+1.  Masukkan IP yang tersedia di pertanyaan FTP LOGIN, yaitu :  10.15.42.60 49000
 2.  Selanjutnya, ketika membuka file di Wireshark, mayoritas paket yang berkaitan dengan login teridentifikasi pada protokol FTP. Untuk mempermudah pencarian, filter dengan kata kunci "ftp" dan pilih paket yang menunjukkan informasi login berhasil.
 3.  Pada terminal, kami diminta untuk memasukkan username yang berhasil digunakan untuk login FTP. Setelah menganalisis data, kami menemukan bahwa username yang berhasil login adalah sn34ky. Selanjutnya, kami juga diminta untuk memberikan password untuk username tersebut, yang adalah sup3rsn1ff3r.
 4.  6. Flag :
@@ -85,8 +85,8 @@ Berikut bukti dokumentasinya :
 
 ## SUPRISE
 
-## Langkag - langkah : 
-1.  Masukkan IP yang tersedia di pertanyaan Pegawai Negeri Sebelah, yaitu : 10.15.42.60 48500
+## Langkah - langkah : 
+1.  Masukkan IP yang tersedia di pertanyaan SUPRISE, yaitu : 10.15.42.60 48500
 2.  Di terminal, Anda diminta untuk memasukkan layanan yang digunakan pada FTP. Untuk ini, cari paket yang relevan dengan format yang sama seperti pada soal FTP Login sebelumnya.
 3.  Setelah menemukan baris yang sesuai, masukkan informasi tersebut dan berhasil.
 4.  Kemudian, diminta untuk mengirim nama file yang dikirim oleh penyerang. Temukan nama file di paket yang sama, masukkan kata dengan format yang benar, dan verifikasi keberhasilannya.
@@ -120,6 +120,17 @@ Berikut bukti dokumentasinya :
 
 ## CORPORATE BREACH
 
+## Langkah - langkah : 
+1.  Masukkan IP yang tersedia di pertanyaan CORPORATE BREACH, yaitu : 10.15.42.60 51000
+2.  Seperti biasanya, saya mulai dengan memfilter menggunakan tcp stream. Saya mencoba mengikuti salah satu nomor yang menggunakan protokol HTTP, dan menemukan beberapa pesan dari peretas. Pada salah satu file HTTP, yang kemudian menampilkan pesan dari pengirim atau peretas bernama Nakhimov.
+3.  Saya menyadari bahwa file yang mencurigakan, berisi email dan password peretas, memiliki ukuran berbeda dari file lainnya, yaitu 106. Sementara file lain umumnya memiliki ukuran sekitar 90-an, sehingga perbedaan ini menarik perhatian.
+4. Flag :
+   ```
+   Benar! Ini flag-mu: JarkomIT{supp0rt_k0k_l3m4h_bg_DDd0hfqLuCRUKlJweTXYdQ7O0G6ru7PfoI1NVnfnGV9udblQoaTNG6}
+   ```
+
+Berikut bukti dokumentasinya :
+
 1. ![Screenshot 2024-09-18 221129](https://github.com/user-attachments/assets/5badb8e3-0a8d-4d52-84af-6f149071832a)
 
 2. ![Screenshot 2024-09-18 221241](https://github.com/user-attachments/assets/c4aa980e-9353-49c6-86d8-7facc6e3450d)
@@ -127,8 +138,20 @@ Berikut bukti dokumentasinya :
 3. ![Screenshot 2024-09-18 221315](https://github.com/user-attachments/assets/5f0db09d-f91f-43d1-98a7-a0766c49801e)
 
 4. ![Screenshot 2024-09-18 221329](https://github.com/user-attachments/assets/21a0e56b-79ee-43c7-9f88-91cc9de2527b)
+   
 
 ## Gajah Terbang (Server Recon)
+
+## Langkah - langkah : 
+1.  Masukkan IP yang tersedia di pertanyaan Gajah Terbang (Server Recon), yaitu :  10.15.42.60 61000
+2.  Pertanyaan pertama terkait DBMS yang digunakan pada server, dan setelah menganalisis file pcap, diketahui bahwa server tersebut menggunakan PostgreSQL sebagai sistem manajemen basis datanya.
+3.  Selanjutnya, setelah menganalisis secara detail, saya menemukan pada paket dengan panjang 560 terdapat informasi mengenai server Debian. Berdasarkan temuan ini, saya menyimpulkan bahwa port tersebut digunakan oleh server DBMS, sesuai dengan pertanyaan mengenai port tempat server berjalan.
+4.  Setelah memeriksa lebih lanjut, saya mengonfirmasi bahwa sistem operasi yang digunakan untuk server tersebut adalah Debian, sesuai dengan informasi yang sebelumnya ditemukan.
+5.  Setelah meneliti lebih lanjut, kita menemukan bahwa username valid untuk DBMS adalah "s1gm4". Nama database yang digunakan adalah "sigmaskibidigyatrizzzz". Dalam database tersebut, terdapat empat pengguna, yaitu Kevin, Jojo, Siska, dan Kuntoaji. Email admin yang terdaftar adalah "jojohermawan@gmail.com". Password yang digunakan oleh admin adalah "admin1234", yang kemudian di-hash untuk mengetahui nilai aslinya.
+6.  ```
+    Benar! Ini flag-mu: JarkomIT{Gy4tT_M5g_4U_8usPMgdhbwU0oEB8fBTStBxFG5k1tk5xxJJAlP4O8qwV7HvatHUkgBiD1}
+    ``` 
+Berikut adalah bukti dokumentasinya :
 
 1. ![Screenshot 2024-09-18 225703](https://github.com/user-attachments/assets/e770b427-4847-45af-88dc-1e5065cae87a)
 
@@ -150,6 +173,19 @@ Berikut bukti dokumentasinya :
 
 
 ## Gajah Terbang (Attacker Recon)
+
+## Langkah - langkah : 
+1.  Masukkan IP yang tersedia di pertanyaan Gajah Terbang (Attacker Recon), yaitu :
+2.  Akun yang dimiliki oleh penyerang dalam database adalah kuntoajiisrillll@gmail.com. Untuk menemukan informasi ini, saya menganalisis data yang tersedia dan mengidentifikasi bahwa kuntoaji memiliki peran yang mencurigakan di server, yaitu sebagai penyerang yang mengubah peran pengguna.
+3.  Password yang digunakan oleh penyerang adalah "kissme". Lalu memverifikasi password ini dengan mencocokkannya melalui proses hashing untuk mendapatkan password yang sesungguhnya.
+4.  Tanggal pemblokiran akun penyerang tercatat pada 2024-06-09. Informasi ini diperoleh dengan melihat ID pengguna, yang menunjukkan bahwa akun kuntoaji, dengan ID 3, diblokir pada tanggal tersebut.
+5.  Penyerang memodifikasi dua tabel dalam database, yaitu "users" dan "banned_users". Modifikasi ini dapat dilihat dari perubahan yang terjadi pada data di tabel-tabel tersebut.
+6.  Barang-barang yang dibeli oleh penyerang meliputi "rokok" dan "es krim". Total transaksi untuk barang-barang ini, berdasarkan data yang ada, adalah 24,500. Informasi ini dihitung dari harga masing-masing barang dan jumlah transaksi yang tercatat.
+7.  ```
+    Benar! Ini flag-mu: JarkomIT{G4jaH_K0k_t3RbaNG_EiyYfwb1yl3i5IoixQ9MUFuFCYntaCZObw7K7zKGX7zHqe1qaYvP2Kt5}
+    ``` 
+
+Berikut hasil dokumentasinya : 
 
 1. ![Screenshot 2024-09-18 231132](https://github.com/user-attachments/assets/dc586d31-c9f5-42d1-85b1-252e4b060ffd)
 
