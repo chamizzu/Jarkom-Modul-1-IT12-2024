@@ -34,6 +34,7 @@ Berikut bukti dokumentasinya :
 4. ![Screenshot 2024-09-19 003147](https://github.com/user-attachments/assets/fd4b66be-80a0-46d4-987c-ee73fca8734d)
 
 
+
 ## Pegawai Negeri Sebelah
 
 ## Langkah - langkah : 
@@ -41,7 +42,7 @@ Berikut bukti dokumentasinya :
 2.  Untuk menemukan pemilik password "nNnM%coQuF", gunakan filter tcp.stream eq di Wireshark. Terapkan filter tersebut dan telusuri paket-paket yang ada hingga menemukan informasi terkait password. Hasilnya menunjukkan bahwa pemilik password tersebut adalah Vero Tampubolon.
 3.  Kemudian, diminta untuk menentukan jabatan Taufan Kuswandari, yang tercatat sebagai Analis Kebijakan.
 4.  Selanjutnya, untuk nama yang terdaftar di posisi teratas, yaitu Cici Mustofa, serta password untuk pengguna terakhir, Harjasa Suryatmi, yang memiliki password "RyxaJPv^yF".
-5.  6. Flag :
+5. Flag :
    ```
    Benar! Ini flag-mu: JarkomIT{Tum8eN_p45SnYa_Ku4t_B1aS4Nya_RE5fB9msos1r1n1tSfPEjZ0NBL3FW15zhfirMVzotJtTjtmg1WeEM4h}
    ```
@@ -69,7 +70,7 @@ Berikut bukti dokumentasinya :
 1.  Masukkan IP yang tersedia di pertanyaan FTP LOGIN, yaitu :  10.15.42.60 49000
 2.  Selanjutnya, ketika membuka file di Wireshark, mayoritas paket yang berkaitan dengan login teridentifikasi pada protokol FTP. Untuk mempermudah pencarian, filter dengan kata kunci "ftp" dan pilih paket yang menunjukkan informasi login berhasil.
 3.  Pada terminal, kami diminta untuk memasukkan username yang berhasil digunakan untuk login FTP. Setelah menganalisis data, kami menemukan bahwa username yang berhasil login adalah sn34ky. Selanjutnya, kami juga diminta untuk memberikan password untuk username tersebut, yang adalah sup3rsn1ff3r.
-4.  6. Flag :
+4. Flag :
    ```
    Benar! Ini flag-mu: JarkomIT{n0t_s0_s3cur3_ftp_V20h8MV4kLHzIDl4vM8bxqWbvL0XwLEJuZEjtqRrHk2Wf44U4ObVG1N}
    ```
@@ -92,7 +93,7 @@ Berikut bukti dokumentasinya :
 4.  Kemudian, diminta untuk mengirim nama file yang dikirim oleh penyerang. Temukan nama file di paket yang sama, masukkan kata dengan format yang benar, dan verifikasi keberhasilannya.
 5.  Selanjutnya, cari pesan rahasia dari penyerang. Telusuri paket dari atas ke bawah hingga menemukan paket dengan informasi yang sama seperti nama file sebelumnya.
 6.  Paket tersebut berisi kode C++ yang dikompilasi untuk menemukan hasil tertentu. Masukkan hasil ini ke terminal untuk mendapatkan jawaban yang benar.
-7.  6. Flag :
+7. Flag :
    ```
    Benar! Ini flag-mu: JarkomIT{l1ttl3_m0us3_1n_th3_h0us3_nfiQRSf2p6F4uj4coKFqxHJX0G0UM0MTQFSJynM3gooJAbMxhjhXTCHU}
    ```
@@ -110,6 +111,18 @@ Berikut bukti dokumentasinya :
 
 ## PACKAGE BARRAGE
 
+## Langkah - langkah : 
+1.  Masukkan IP yang tersedia di pertanyaan  PACKAGE BARRAGE, yaitu : 10.15.42.60 47000
+2.  Untuk menemukan informasi tentang penyerang, pertama-tama kami mengidentifikasi IP address penyerang, yang tercatat sebagai 172.21.80.1.
+3.  Selain itu, kami menganalisis data untuk menghitung total upaya brute-force yang dilakukan oleh penyerang, yang ternyata mencapai 1917. Penemuan ini didasarkan pada analisis file dan data yang terdeteksi pada percobaan ke-1917 dan ke-1918, di mana kami menemukan file yang terkait dengan upaya brute-force tersebut.
+4.  Setelah berhasil login, penyerang mengunduh file dengan nama "Albatros.txt". Konten yang disisipkan oleh penyerang dalam file tersebut adalah "Der Rote Kampfflieger", yang sesuai dengan informasi yang tersedia.
+5.  Flag :
+   ```
+   Benar! Ini flag-mu: JarkomIT{th3_fly1ng_c1rcus_0f_w4r_g7CLgMtr0z8sD4L7XrFge7aOY5StghkJi38YyG3yVcceSrWurX7UUACE}
+   ```
+
+Berikut hasil dokumentasinya :
+
 1. ![Screenshot 2024-09-18 215137](https://github.com/user-attachments/assets/f27995ba-5a58-4e15-87ec-6ac3752bb03d)
 
 2. ![Screenshot 2024-09-18 215231](https://github.com/user-attachments/assets/2bc3ba8c-2bd4-480f-a255-f329a044d38d)
@@ -117,6 +130,7 @@ Berikut bukti dokumentasinya :
 3. ![Screenshot 2024-09-18 215715](https://github.com/user-attachments/assets/101d3319-cfc1-42b6-a1c6-1a8fcd887979)
 
 4. ![Screenshot 2024-09-18 215727](https://github.com/user-attachments/assets/1c7721c4-4b27-470c-b181-69bacb1dfd22)
+   
 
 ## CORPORATE BREACH
 
@@ -148,9 +162,12 @@ Berikut bukti dokumentasinya :
 3.  Selanjutnya, setelah menganalisis secara detail, saya menemukan pada paket dengan panjang 560 terdapat informasi mengenai server Debian. Berdasarkan temuan ini, saya menyimpulkan bahwa port tersebut digunakan oleh server DBMS, sesuai dengan pertanyaan mengenai port tempat server berjalan.
 4.  Setelah memeriksa lebih lanjut, saya mengonfirmasi bahwa sistem operasi yang digunakan untuk server tersebut adalah Debian, sesuai dengan informasi yang sebelumnya ditemukan.
 5.  Setelah meneliti lebih lanjut, kita menemukan bahwa username valid untuk DBMS adalah "s1gm4". Nama database yang digunakan adalah "sigmaskibidigyatrizzzz". Dalam database tersebut, terdapat empat pengguna, yaitu Kevin, Jojo, Siska, dan Kuntoaji. Email admin yang terdaftar adalah "jojohermawan@gmail.com". Password yang digunakan oleh admin adalah "admin1234", yang kemudian di-hash untuk mengetahui nilai aslinya.
-6.  ```
+6. Flag :
+    ```
     Benar! Ini flag-mu: JarkomIT{Gy4tT_M5g_4U_8usPMgdhbwU0oEB8fBTStBxFG5k1tk5xxJJAlP4O8qwV7HvatHUkgBiD1}
-    ``` 
+    ```
+
+    
 Berikut adalah bukti dokumentasinya :
 
 1. ![Screenshot 2024-09-18 225703](https://github.com/user-attachments/assets/e770b427-4847-45af-88dc-1e5065cae87a)
@@ -181,7 +198,8 @@ Berikut adalah bukti dokumentasinya :
 4.  Tanggal pemblokiran akun penyerang tercatat pada 2024-06-09. Informasi ini diperoleh dengan melihat ID pengguna, yang menunjukkan bahwa akun kuntoaji, dengan ID 3, diblokir pada tanggal tersebut.
 5.  Penyerang memodifikasi dua tabel dalam database, yaitu "users" dan "banned_users". Modifikasi ini dapat dilihat dari perubahan yang terjadi pada data di tabel-tabel tersebut.
 6.  Barang-barang yang dibeli oleh penyerang meliputi "rokok" dan "es krim". Total transaksi untuk barang-barang ini, berdasarkan data yang ada, adalah 24,500. Informasi ini dihitung dari harga masing-masing barang dan jumlah transaksi yang tercatat.
-7.  ```
+7. Flag :
+    ```
     Benar! Ini flag-mu: JarkomIT{G4jaH_K0k_t3RbaNG_EiyYfwb1yl3i5IoixQ9MUFuFCYntaCZObw7K7zKGX7zHqe1qaYvP2Kt5}
     ``` 
 
