@@ -106,7 +106,8 @@ Berikut bukti dokumentasinya :
 
 3. ![Screenshot 2024-09-18 205135](https://github.com/user-attachments/assets/04beb9c6-b872-4045-b696-25045ef70fdf)
 
-4. ![Screenshot 2024-09-18 205207](https://github.com/user-attachments/assets/1f27769a-56a6-479d-b31f-a2964bde8b62)
+4. ![Screenshot 2024-09-19 015114](https://github.com/user-attachments/assets/79ff9eb0-6eee-4f61-aa48-cda20487b9db)
+
 
 
 ## PACKAGE BARRAGE
