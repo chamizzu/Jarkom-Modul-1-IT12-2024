@@ -1,6 +1,5 @@
 # Jarkom-Modul-1-IT12-2024
 
-# PRAKTIKUM MODUL 1 ETHICAL HACKING
 ## Kelompok IT12
 ### Anggota Kelompok :
 |             Nama              |     NRP    |
@@ -10,7 +9,7 @@
 
 
  
-## Advance Sanity Check
+## 1. Advance Sanity Check
 
 ## Langkah - langkah :
 1. Masukkan IP yang tersedia di pertanyaan Advance Sanity Check yaitu : 10.15.42.60 44000
@@ -35,7 +34,7 @@ Berikut bukti dokumentasinya :
 
 
 
-## Pegawai Negeri Sebelah
+## 2. Pegawai Negeri Sebelah
 
 ## Langkah - langkah : 
 1.  Masukkan IP yang tersedia di pertanyaan Pegawai Negeri Sebelah, yaitu : 10.15.42.60 53000
@@ -64,7 +63,7 @@ Berikut bukti dokumentasinya :
    ![Screenshot 2024-09-18 203953](https://github.com/user-attachments/assets/58b19cec-b16d-4970-bb95-a8661593eeee)
 
 
-## FTP LOGIN
+## 3. FTP LOGIN
 
 ## Langkah - langkah : 
 1.  Masukkan IP yang tersedia di pertanyaan FTP LOGIN, yaitu :  10.15.42.60 49000
@@ -84,7 +83,7 @@ Berikut bukti dokumentasinya :
 3. ![Screenshot 2024-09-18 235755](https://github.com/user-attachments/assets/7904942b-a3b5-41d1-9fe1-b0fc2c9a9005)
 
 
-## SUPRISE
+## 4. SUPRISE
 
 ## Langkah - langkah : 
 1.  Masukkan IP yang tersedia di pertanyaan SUPRISE, yaitu : 10.15.42.60 48500
@@ -110,7 +109,7 @@ Berikut bukti dokumentasinya :
 
 
 
-## PACKAGE BARRAGE
+## 5. PACKAGE BARRAGE
 
 ## Langkah - langkah : 
 1.  Masukkan IP yang tersedia di pertanyaan  PACKAGE BARRAGE, yaitu : 10.15.42.60 47000
@@ -135,29 +134,8 @@ Berikut hasil dokumentasinya :
 5. ![Screenshot 2024-09-18 215727](https://github.com/user-attachments/assets/1c7721c4-4b27-470c-b181-69bacb1dfd22)
    
 
-## CORPORATE BREACH
 
-## Langkah - langkah : 
-1.  Masukkan IP yang tersedia di pertanyaan CORPORATE BREACH, yaitu : 10.15.42.60 51000
-2.  Seperti biasanya, saya mulai dengan memfilter menggunakan tcp stream. Saya mencoba mengikuti salah satu nomor yang menggunakan protokol HTTP, dan menemukan beberapa pesan dari peretas. Pada salah satu file HTTP, yang kemudian menampilkan pesan dari pengirim atau peretas bernama Nakhimov.
-3.  Saya menyadari bahwa file yang mencurigakan, berisi email dan password peretas, memiliki ukuran berbeda dari file lainnya, yaitu 106. Sementara file lain umumnya memiliki ukuran sekitar 90-an, sehingga perbedaan ini menarik perhatian.
-4. Flag :
-   ```
-   Benar! Ini flag-mu: JarkomIT{supp0rt_k0k_l3m4h_bg_DDd0hfqLuCRUKlJweTXYdQ7O0G6ru7PfoI1NVnfnGV9udblQoaTNG6}
-   ```
-
-Berikut bukti dokumentasinya :
-
-1. ![Screenshot 2024-09-18 221129](https://github.com/user-attachments/assets/5badb8e3-0a8d-4d52-84af-6f149071832a)
-
-2. ![Screenshot 2024-09-18 221241](https://github.com/user-attachments/assets/c4aa980e-9353-49c6-86d8-7facc6e3450d)
-
-3. ![Screenshot 2024-09-18 221315](https://github.com/user-attachments/assets/5f0db09d-f91f-43d1-98a7-a0766c49801e)
-
-4. ![Screenshot 2024-09-18 221329](https://github.com/user-attachments/assets/21a0e56b-79ee-43c7-9f88-91cc9de2527b)
-   
-
-## Gajah Terbang (Server Recon)
+## 6. Gajah Terbang (Server Recon)
 
 ## Langkah - langkah : 
 1.  Masukkan IP yang tersedia di pertanyaan Gajah Terbang (Server Recon), yaitu :  10.15.42.60 61000
@@ -192,7 +170,7 @@ Berikut adalah bukti dokumentasinya :
 9. ![Screenshot 2024-09-18 230418](https://github.com/user-attachments/assets/984ab0cf-5f4d-437e-bec1-058accfa30e2)
 
 
-## Gajah Terbang (Attacker Recon)
+## 7. Gajah Terbang (Attacker Recon)
 
 ## Langkah - langkah : 
 1.  Masukkan IP yang tersedia di pertanyaan Gajah Terbang (Attacker Recon), yaitu :
@@ -228,7 +206,7 @@ Berikut hasil dokumentasinya :
 
     
 
-## 2. Illegal Breakthrough
+## 8. Illegal Breakthrough
 
 ### Langkah-langkah:
 1. Menemukan alamat IP menggunakan Wireshark: 172.21.88.207
@@ -255,7 +233,7 @@ Berikut hasil dokumentasinya :
 JarkomIT{d34th_fr0m_th3_sky_6EkG8A6TWNe6bIkS0AUnkuTNWH1fCNB1GtDXzjjpstmJrqPESExTWW1}
 ```
 
-## 3. Corporate Breach
+## 9. Corporate Breach
 
 ### Langkah-langkah:
 1. Menemukan nama penyerang: `frame contains "name"`
@@ -274,7 +252,7 @@ JarkomIT{d34th_fr0m_th3_sky_6EkG8A6TWNe6bIkS0AUnkuTNWH1fCNB1GtDXzjjpstmJrqPESExT
 JarkomIT{supp0rt_k0k_l3m4h_bg_X6k4kpmgiywUAvr6ShP1QVrkNG6n0aJuPNWjvvdOwDqSxEq2R5SvG6}
 ```
 
-## 4. Tantangan EZ
+## 10. Tantangan EZ
 
 ### Langkah-langkah:
 1. Menemukan pesan di TCP stream:
@@ -292,7 +270,7 @@ JarkomIT{supp0rt_k0k_l3m4h_bg_X6k4kpmgiywUAvr6ShP1QVrkNG6n0aJuPNWjvvdOwDqSxEq2R5
 JarkomIT{BiAr_aman_Pake_sSh_5F6N9E3iBq6sTSqNYBq5yrHYV3zjgmrbNiBnrjR4R4A7uLpowvayEZ}
 ```
 
-## 5. InneRCE
+## 11. InneRCE
 
 ### Langkah-langkah:
 1. Menggunakan `frame contains "shell"` untuk menemukan konten HTTP
@@ -358,7 +336,7 @@ JarkomIT{BiAr_aman_Pake_sSh_5F6N9E3iBq6sTSqNYBq5yrHYV3zjgmrbNiBnrjR4R4A7uLpowvay
 JarkomIT{P4L1nG_g4mPaNg_An4L1sA_W3b_aTk_k2iyHeiFpFY43wOPrr0onoOYZW4iweS1Jsu3Ngx8x8FCMqQhdDtxeRCE}
 ```
 
-## 6. Stegography
+## 12. Stegography
 
 ### Langkah-langkah:
 1. Menemukan 13 file PNG menggunakan `frame contains "png"`
@@ -451,7 +429,7 @@ JarkomIT{P4L1nG_g4mPaNg_An4L1sA_W3b_aTk_k2iyHeiFpFY43wOPrr0onoOYZW4iweS1Jsu3Ngx8
 ```
 JarkomIT{S3LaM4t_p4rA_PahL4WaN_suKliOnlOmpKy2uJMaaghiuIBP5sSIeZZC5MXsLf7NDbwAomaoeQ7hC5}
 ```
-## 7. Rizzset
+## 13. Rizzset
 
 
 ### Informasi yang ditemukan:
@@ -476,6 +454,170 @@ JarkomIT{S3LaM4t_p4rA_PahL4WaN_suKliOnlOmpKy2uJMaaghiuIBP5sSIeZZC5MXsLf7NDbwAoma
 ```
 JarkomIT{Dn5_C0rR34t10n_V1DMrStMk5RBnEGTtYi1yQ14Ur1zZrz71zUcXIbjtr4XX2GyZIHw8d1T5}
 ```
+
+## 14. Baby Hengker
+
+### Langkah-Langkah:
+
+1. Awalnya saya menggunakan filter berikut:
+   ```
+   ((usb.transfer_type == 0x01) && (frame.len == 35)) && !(usb.capdata == 00:00:00:00:00:00:00:00)
+   ```
+   untuk menampilkan hanya pesan yang ada HID DATA yang mungkin bisa berisi pesan penting
+
+   ![image](https://github.com/user-attachments/assets/55c451bd-7c2c-4229-9ad3-d1cd3dfefdf0)
+
+2. lalu ekstrak nilai **HID DATA** dengan cara capture menjadi file csv, lalu cut semua untuk menyisakan kolom **HID DATA** saja.
+   ```
+   cat hiddata.csv | cut -d "," -f 7 | cut -d '"' -f 2 | grep -vE "HID DATA" > hexoutput.txt
+   ```
+4. saya menemukan dan mengedit script python yang bisa konversi HID DATA menjadi text, berikut:
+   ```python
+   # Mapping kunci ke nama
+   newmap = {
+       2: "PostFail",
+       4: "a",
+       5: "b",
+       6: "c",
+       7: "d",
+       8: "e",
+       9: "f",
+       10: "g",
+       11: "h",
+       12: "i",
+       13: "j",
+       14: "k",
+       15: "l",
+       16: "m",
+       17: "n",
+       18: "o",
+       19: "p",
+       20: "q",
+       21: "r",
+       22: "s",
+       23: "t",
+       24: "u",
+       25: "v",
+       26: "w",
+       27: "x",
+       28: "y",
+       29: "z",
+       30: "1",
+       31: "2",
+       32: "3",
+       33: "4",
+       34: "5",
+       35: "6",
+       36: "7",
+       37: "8",
+       38: "9",
+       39: "0",
+       40: "Enter",
+       41: "esc",
+       42: "del",
+       43: "tab",
+       44: "space",
+       45: "-",
+       47: "[",
+       48: "]",
+       56: "/",
+       57: "CapsLock",
+       79: "RightArrow",
+       80: "LeftArrow"
+   }
+   
+   # Membaca file dan memproses setiap baris
+   with open('cleaned_hexoutput.txt', 'r') as myKeys:
+       for line in myKeys:
+           bytesArray = bytearray.fromhex(line.strip())
+           for byte in bytesArray:
+               if byte != 0:
+                   keyVal = int(byte)
+                   if keyVal in newmap:
+                       # Print tanpa new line dan mengganti 'space' dengan ' '
+                       if newmap[keyVal] == "space":
+                           print(" ", end="")
+                       else:
+                           print(newmap[keyVal], end="")
+                   else:
+                       print(f"No map found for this value: {keyVal}")
+           print()  # Untuk memastikan setiap baris dipisahkan
+   ```
+
+5. Run dan outputnya adalah:
+      ```bash
+      i
+      n
+      i
+       
+      p
+      pa
+      a
+      s
+      s
+      w
+      o
+      r
+      d
+       
+      w
+      i
+      f
+      fi
+      i
+      n
+      y
+      ya
+      a
+       
+      a
+      p
+      pa
+      a
+       
+      y
+      a
+      3
+      3/
+      3
+      ```
+
+      muncul kata **ini password wifinya apa ya?**, tetapi ada kesalahan pada probset jdi yang benarnya adalah **ini passwordnya apa ya?**
+
+   ### Flag:
+   ```
+   JarkomIT{4ku_p9n_j4d1_h3n9k3r_sEgjwq4XoHsAlCwYsUjd5DKa4Am1KV9VYMJMBLL1Nq8trCygsYwc0HCK}
+   ```
+
+   ### Documentation:
+   
+   ![image](https://github.com/user-attachments/assets/1a243b57-f98a-4793-acf4-8e3e7c7d5363)
+
+## 15. Adult Hengker
+### Langkah-langkah:
+
+1. Pertanyaan pertama adalah apa device yang digunakan, jawabannya bisa kita dapat pada packet bagian `GET DESCRIPTOR Response DEVICE`.
+   ada bertulisan "Optical Mouse"
+
+2. Lalu saya menemukan tools yang bisa tracking mouse dari [github](https://github.com/WangYihang/USB-Mouse-Pcap-Visualizer), kemudian saya clone dan gunakan tools tersebut.
+   
+3.  saat sudah saya run, saya sudah mendapatkan hasil dari pergerakan mouse berikut:
+
+  ![image](https://github.com/user-attachments/assets/2eedebca-d9f1-4307-9c7e-7f21aaa67ae5)
+
+### Flag:
+```
+JarkomIT{d0n7_wr173_r4nd0m1y_AgRSGE6XuTWUyDWpPQ7Rb43Psm455XAGAaou2p6kez52Xp3Lb6LdiK3v1n}
+```
+
+### Documentation
+
+![image](https://github.com/user-attachments/assets/e43b6007-2cf0-45bc-beb8-292319040b31)
+
+
+
+
+
 
 
 
