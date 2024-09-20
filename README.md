@@ -614,6 +614,89 @@ JarkomIT{d0n7_wr173_r4nd0m1y_AgRSGE6XuTWUyDWpPQ7Rb43Psm455XAGAaou2p6kez52Xp3Lb6L
 
 ![image](https://github.com/user-attachments/assets/e43b6007-2cf0-45bc-beb8-292319040b31)
 
+## 16. 22 Nightmare
+### Langkah-langkah:
+
+1. saya coba gunakan filter `ftp` untuk melihat packet ftp nya, dan menemukan
+   `Request: STOR Sh1k4.jpg`
+
+2. Lalu saya coba untuk export data ftp ke local, dan ada 2 yaitu `Sh1k4.jpg` dan `noko.py`.
+   berikut adalah isi dari gambar dan file nya:
+
+   **Sh1k4.jpg**
+
+   ![image](https://github.com/user-attachments/assets/ff78cf33-cc01-4fec-a640-2e07acbb6f4e)
+
+   **noko.py**
+   ```python
+   Import Shika
+
+   Class Noko
+       input = int
+       key = String
+       value = String
+       
+       input = 001001100011010000100010001000100011101001101110001001110011100001101110000110100011101000111100001011110011111000100001011011100001111000100001001111010011110100100111
+       
+       key = jpg msg
+       
+       op xor bit
+   ```
+
+3. lalu saya coba untuk decode input yang tampaknya merupakan biner di CyberChef, hasilnya adalah:
+
+   ![image](https://github.com/user-attachments/assets/288247f5-904c-4821-9fe5-12371b733dc0)
+
+### Flag:
+   ```
+   JarkomIT{Sh1k4n0ko_N0_k05h1tan_DFRzXD2t3qVEf03Jc4H3lIZPU7AnfCur3wR0wigbofUnHCVa9y69aUNU}
+   ```
+
+### Documentation
+
+![image](https://github.com/user-attachments/assets/e9be963c-4a58-40b1-8d5f-49021abcb09d)
+
+## 17. Malicious Code
+
+### Langkah-langkah:
+
+1. Menjalankan filter `frame contains ".php" && http.request.method=="GET"` dan jumlahkan packet yang muncul, totalnya adalah 52
+2. end-point dapat dilihat di stream saat berhasil login / status 200 OK
+   `/index.php`
+3. untuk attempt brute force attacker saat berhasil adalah setelah 153 kali mencoba, saya dapat dari `total semua packet - packet setelah attacker berhasil login`
+4. setelah itu saya mendapatkan kode aneh seperti ASCII pada stream 221 berikut:
+   ```
+   9711297321199711411097321029711811111410511632112101109981179711632991049710810810111010310163324010410511011658321151191019711610111441
+   ```
+   artinya:
+   ```
+   apa warna favorit pembuat challenge? (hint: sweater)
+   ```
+
+   jawaban dari pertanyaan tersebut adalah **merah**
+
+ ### Flag:
+ ```
+ JarkomIT{s3cr3t_m3ss4ge_fr0m_4uth0r_aH2QVVnBvllb9iEs3kSDIXZTHC0YpRjkytGox5x5LkhEHr4UIjL5L0R}
+ ```
+ 
+ ### Documentation
+ 
+ ![image](https://github.com/user-attachments/assets/cac1387a-6e13-44ec-ab56-083f33d8a199)
+
+## 18. Simba
+### Langkah-langkah:
+
+## 19. Encrypted World
+### Langkah-langkah:
+
+## 20. Netware
+### Langkah-langkah:
+
+
+
+
+   
 
 
 
