@@ -591,7 +591,8 @@ JarkomIT{Dn5_C0rR34t10n_V1DMrStMk5RBnEGTtYi1yQ14Ur1zZrz71zUcXIbjtr4XX2GyZIHw8d1T
 
    ### Documentation:
    
-   ![image](https://github.com/user-attachments/assets/1a243b57-f98a-4793-acf4-8e3e7c7d5363)
+   ![Screenshot from 2024-09-20 17-10-17](https://github.com/user-attachments/assets/75fa3f42-17eb-4422-98d9-864a9535c12a)
+
 
 ## 15. Adult Hengker
 ### Langkah-langkah:
