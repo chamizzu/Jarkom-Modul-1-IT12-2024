@@ -701,13 +701,15 @@ JarkomIT{d0n7_wr173_r4nd0m1y_AgRSGE6XuTWUyDWpPQ7Rb43Psm455XAGAaou2p6kez52Xp3Lb6L
    - Jason Vorhees (jvorhees)
    - Michael Meyers (mmeyers)
    - Charles Ray (cray)
-   Namun, ada sesuatu yang berbeda dengan user **Michael Meyers (mmeyers)** karena deskripsinya tidak seperti yang lain: "IhavesisterIssues!10". Ini menunjukkan kemungkinan aktivitas mencurigakan pada user ini.
+
+Namun, ada sesuatu yang berbeda dengan user **Michael Meyers (mmeyers)** karena deskripsinya tidak seperti yang lain: "IhavesisterIssues!10". Ini menunjukkan kemungkinan aktivitas mencurigakan pada user ini.
 
 4. Awalnya, diperkirakan ada 10 file yang bocor berdasarkan deskripsi "IhavesisterIssues!10". Namun, hasil tersebut ternyata kurang tepat dan saya menambahkan kelompok pengguna lain dengan akses penting, seperti:
    - Server Operators
    - Backup Operators
    - Domain Admins
    - Enterprise Admins
+  
 ![Screenshot 2024-09-22 201813](https://github.com/user-attachments/assets/be1033f7-0f6d-470b-a1c1-9344ed7c78d6)
 
 ![Screenshot 2024-09-22 201833](https://github.com/user-attachments/assets/454cfabf-7d00-4e6b-8786-3deaf64c8d95)
