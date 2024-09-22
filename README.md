@@ -688,6 +688,35 @@ JarkomIT{d0n7_wr173_r4nd0m1y_AgRSGE6XuTWUyDWpPQ7Rb43Psm455XAGAaou2p6kez52Xp3Lb6L
 ## 18. Simba
 ### Langkah-langkah:
 
+1. Pertama terdapat pertanyaan apakah service yang compromise ?
+2. Setelah mengetahui service yang diserang, langkah selanjutnya adalah mencari user yang terlibat. Dengan menggunakan filter "user", bisa dilihat daftar pengguna yang terkait. Stream dari salah satu paket kemudian diikuti dan hasilnya seperti berikut ini :
+
+![Screenshot 2024-09-22 201721](https://github.com/user-attachments/assets/8eceb430-dddb-43de-b090-93d41309f494)
+
+3. Dari hasil analisis, ditemukan beberapa user seperti:
+   - Administrator
+   - Guest
+   - krbtgt
+   - Freddy Kreuger (fkreuger)
+   - Jason Vorhees (jvorhees)
+   - Michael Meyers (mmeyers)
+   - Charles Ray (cray)
+   Namun, ada sesuatu yang berbeda dengan user **Michael Meyers (mmeyers)** karena deskripsinya tidak seperti yang lain: "IhavesisterIssues!10". Ini menunjukkan kemungkinan aktivitas mencurigakan pada user ini.
+
+4. Awalnya, diperkirakan ada 10 file yang bocor berdasarkan deskripsi "IhavesisterIssues!10". Namun, hasil tersebut ternyata kurang tepat dan saya menambahkan kelompok pengguna lain dengan akses penting, seperti:
+   - Server Operators
+   - Backup Operators
+   - Domain Admins
+   - Enterprise Admins
+![Screenshot 2024-09-22 201813](https://github.com/user-attachments/assets/be1033f7-0f6d-470b-a1c1-9344ed7c78d6)
+
+![Screenshot 2024-09-22 201833](https://github.com/user-attachments/assets/454cfabf-7d00-4e6b-8786-3deaf64c8d95)
+
+### Flag:
+ ```
+ Benar! Ini flag-mu: JarkomIT{4PaK4h_M3nD1nG_p4K3_SFTP_5jf1XUx6NhTL8SJxUr96ab3YeAac3tU1tQWUxWw86QzC6qjmLgQeSMB}
+ ```
+
 ## 19. Encrypted World
 ### Langkah-langkah:
 
